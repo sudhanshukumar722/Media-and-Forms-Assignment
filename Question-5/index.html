@@ -9,17 +9,17 @@
   <form>
     <h2>Validation Form</h2>
     <label for="Firstname">First Name:</label>
-    <input placeholder="Sudhanshu" type="text"><br>
+    <input placeholder="Sudhanshu" type="text" required minlength="3" maxlength="20"><br>
     <label for="Lastname">Last Name:</label>
-    <input placeholder="Singh" type="text"><br>
+    <input placeholder="Singh" type="text" required minlength="3" maxlength="20"><br>
     <label for="Email">Email:</label>
-    <input placeholder="sudhanshu@gmail.com" type="email"><br>
+    <input placeholder="sudhanshu@gmail.com" type="email" required><br>
     <label for="">Password:</label>
-    <input placeholder="******" type="password"><br>
+    <input placeholder="******" type="password" required minlength="6"><br>
     <label for="">Confirm Password:</label>
-    <input placeholder="******" type="password" name="" id=""><br>
+    <input placeholder="******" type="password" name="" id="" required minlength="6"><br>
     <label for="">Age:</label>
-    <input placeholder="22" type="number"><br>
+    <input placeholder="22" type="number" required minlength="0" maxlength="150"><br>
     <label for="Gender">Gender:</label>
     <input checked type="radio">
     <label for="">Male</label>
